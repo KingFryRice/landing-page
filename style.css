@@ -93,3 +93,26 @@ section .box {
     border: 3px solid #3882F6;
     border-radius: 8px;
 }
+
+/* Quote Section styling */
+
+.quote {
+    background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+}
+
+.quote-text .text {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote-text .quoted {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
