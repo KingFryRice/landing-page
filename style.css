@@ -146,3 +146,16 @@ section .box {
     color: #F9FAF8;
     border-radius: 8px;
 }
+
+/* Style Footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color:#E5E7EB;
+    font-size: 12px;
+}
