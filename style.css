@@ -116,3 +116,33 @@ section .box {
     color: #1F2937;
 }
 
+/* Final Section Styling */
+
+.final-box {
+    display: flex;
+}
+
+.final-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.final-content .final-header {
+    font-size: 18px;
+    font-weight: bold;
+    color: #F9FAF8
+}
+
+.final-content .final-subtext {
+    font-size: 12px;
+    font-weight: lighter;
+    color: #E5E7EB;
+}
+
+.final-button button {
+    border: 1px solid #F9FAF8;
+    padding: 5px 24px;
+    background: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
+}
