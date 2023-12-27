@@ -1,0 +1,64 @@
+/* Header and Navbar styling */
+
+.hero,
+.footer {
+    background: #1F2937;
+}
+
+nav .nav-links {
+    display: flex;
+    color: #E5E7EB;
+    gap: 1em;
+    font-weight: lighter;
+}
+
+nav .nav-logo {
+    color: #F9FAF8;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+ul,
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.hero-content {
+    display: flex;
+    align-items: space-between;
+}
+
+.place-holder {
+    margin-left: auto;
+    background: lightgray;
+    height: 100px;
+    width: 300px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.hero-text p {
+    font-size: 18px;
+    font-weight: lighter;
+    color: #E5E7EB;
+}
+
+.hero-content button,
+ .final-box {
+    background-color: #3882F6;
+
+}
+
+.hero-content button {
+    border: 0;
+    color: #E5E7EB;
+    padding: 5px 24px;
+    border-radius: 8px;
+}
+
+/* Information Section styling */
