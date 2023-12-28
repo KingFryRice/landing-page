@@ -5,27 +5,73 @@
 body {
     font-family: Roboto, sans-serif;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
 }
 
-/* Navbar styling */
+/* Navbar Structure */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul,
+.navbar a {
+    display: flex;
+    text-decoration: none;
+    gap: 1.5em;
+}
+
+.navbar li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Structure */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.header .content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.header .place-holder {
+    flex: 1;
+}
+
+.header button {
+    align-self: flex-start;
+}
+
+/* Information Section Structure */
 
 
 
-/* Header Styling */
+/* Quote Section Structure */
 
 
 
-/* Information Section styling */
+/* Final Section Structure */
 
 
 
-/* Quote Section styling */
+/* Footer Structure */
 
 
 
-/* Final Section Styling */
-
-
-
-/* Style Footer */
+/* Styling */
 
