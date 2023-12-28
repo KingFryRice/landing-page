@@ -85,7 +85,27 @@ body {
 
 /* Quote Section Structure */
 
+.quote {
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.quote .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.quote .container .text {
+    flex-wrap: wrap;
+}
+
+.quote .container .author {
+    align-self: flex-end;
+}
 
 /* Final Section Structure */
 
