@@ -57,9 +57,31 @@ body {
     align-self: flex-start;
 }
 
-/* Information Section Structure */
+/* Info Section Structure */
 
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+    gap: 100px;
+}
 
+.info .container {
+    display: flex;
+}
+
+.container .content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.content .place-holder {
+    width: 75px;
+    height: 75px;
+}
 
 /* Quote Section Structure */
 
