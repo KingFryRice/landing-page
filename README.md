@@ -1,1 +1,3 @@
 # landing-page
+
+In this project I utilize basic flex box concepts to design a website. From my previous project I have learned how to better structure my html file in order to style each section with ease. At one point I had to start over on this project, but by doing this I was able to learn a valuable lesson about planning my structure and how to make revisions as I go. In the final version I created a nav bar and hero header content, utilized three sections with different elements ranging from buttons, to div place holders, and content containers in sections and finally a footer. Each section was unique, so the project offered me many different opportunities to tackle new challenges and obtain a few new skills. 
