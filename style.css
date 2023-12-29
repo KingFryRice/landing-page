@@ -120,8 +120,7 @@ body {
 }
 
 .header .width .place-holder {
-    min-width: 10px;
-    min-height: 175px;
+    min-height: 223px;
     background: rgb(117, 110, 110);
     border: 0;
     border-radius: 8px;
