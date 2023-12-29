@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-/* Main Body Styling */
+/* Main Body Structure */
 
 body {
     font-family: Roboto, sans-serif;
@@ -33,6 +33,24 @@ body {
     padding: 0;
 }
 
+/* Navbar Styling */
+
+.navbar {
+    background: #1F2937;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.navbar a {
+    font-size: 18px;
+    font-weight: lighter;
+    color: #E5E7EB;
+}
+
 /* Header Structure */
 
 .header {
@@ -56,6 +74,10 @@ body {
 .header button {
     align-self: flex-start;
 }
+
+/* Header Styling */
+
+
 
 /* Info Section Structure */
 
@@ -142,6 +164,3 @@ body {
     justify-content: center;
     margin: 20px 0;
 }
-
-/* Styling */
-
