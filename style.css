@@ -8,7 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 60%;
+    width: 1300px;
     margin: auto;
 }
 
@@ -267,5 +267,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px 0;
+    padding: 20px 0;
+}
+
+/* Footer Styling */
+
+.footer {
+    background: #1F2937;
+}
+
+.footer div {
+    font-size: 18px;
+    font-weight: lighter;
+    color: #E5E7EB;
 }
