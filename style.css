@@ -163,7 +163,7 @@ body {
 /* Quote Section Structure */
 
 .quote {
-    margin: 50px 0;
+    padding: 50px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -182,6 +182,25 @@ body {
 
 .quote .container .author {
     align-self: flex-end;
+}
+
+/* Quote Section Styling */
+
+.quote {
+    background: #e5E7EB;
+}
+
+.quote .container .text {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+    text-align: center;
+}
+
+.quote .container .author {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
 }
 
 /* Action Section Structure */
