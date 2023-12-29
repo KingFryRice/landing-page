@@ -8,26 +8,29 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 1300px;
-    margin: auto;
+}
+
+.width {
+    width: 60%;
+    margin: 0 auto;
 }
 
 /* Navbar Structure */
 
-.navbar {
+.navbar .width {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.navbar ul,
-.navbar a {
+.navbar .width ul,
+.navbar .width a {
     display: flex;
     text-decoration: none;
     gap: 1.5em;
 }
 
-.navbar li {
+.navbar .width li {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -39,13 +42,13 @@ body {
     background: #1F2937;
 }
 
-.navbar .logo {
+.navbar .width .logo {
     font-size: 24px;
     font-weight: bolder;
     color: #F9FAF8;
 }
 
-.navbar a {
+.navbar .width a {
     font-size: 18px;
     font-weight: lighter;
     color: #E5E7EB;
@@ -53,7 +56,7 @@ body {
 
 /* Header Structure */
 
-.header {
+.header .width {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -61,17 +64,17 @@ body {
     gap: 10em;
 }
 
-.header .content {
+.header .width .content {
     display: flex;
     flex-direction: column;
     flex: 1;
 }
 
-.header .place-holder {
+.header .width .place-holder {
     flex: 1;
 }
 
-.header button {
+.header .width button {
     align-self: flex-start;
 }
 
@@ -81,20 +84,20 @@ body {
     background: #1F2937;
 }
 
-.header .content h1 {
+.header .width .content h1 {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
     margin: 0;
 }
 
-.header .content p {
+.header .width .content p {
     font-size: 18px;
     font-weight: lighter;
     color: #E5E7EB;
 }
 
-.header .content button {
+.header .width .content button {
     padding: 8px 35px;
     background: #3882F6;
     color: #F9FAF8;
@@ -102,7 +105,7 @@ body {
     border: 0;
 }
 
-.header .place-holder {
+.header .width .place-holder {
     min-width: 10px;
     min-height: 175px;
     background: lightgray;
@@ -112,7 +115,7 @@ body {
 
 /* Info Section Structure */
 
-.info {
+.info .width {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -121,7 +124,7 @@ body {
     gap: 45px;
 }
 
-.info .container {
+.info .width .container {
     display: flex;
 }
 
@@ -140,7 +143,7 @@ body {
 
 /* Info Section Styling */
 
-.info h3 {
+.info .width h3 {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
@@ -166,25 +169,25 @@ body {
 
 /* Quote Section Structure */
 
-.quote {
+.quote .width {
     padding: 50px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.quote .container {
+.quote .width .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.quote .container .text {
+.quote .width .container .text {
     flex-wrap: wrap;
 }
 
-.quote .container .author {
+.quote .width .container .author {
     align-self: flex-end;
 }
 
@@ -194,14 +197,14 @@ body {
     background: #e5E7EB;
 }
 
-.quote .container .text {
+.quote .width .container .text {
     font-size: 36px;
     font-weight: lighter;
     color: #1F2937;
     text-align: center;
 }
 
-.quote .container .author {
+.quote .width .container .author {
     font-size: 24px;
     font-weight: bold;
     color: #1F2937;
@@ -209,14 +212,14 @@ body {
 
 /* Action Section Structure */
 
-.action {
+.action .width {
     padding: 50px 0;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.action .container {
+.action .width .container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -224,7 +227,7 @@ body {
     width: 60%;
 }
 
-.action .container .content {
+.action .width .container .content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -238,27 +241,27 @@ body {
 
 /* Action Section Styling */
 
-.action .container {
+.action .width .container {
     background: #3882F6;
     border: 0;
     border-radius: 8px;
     padding: 50px 100px;
 }
 
-.action .container .content div {
+.action .width .container .content div {
     font-size: 24px;
     font-weight: bolder;
     color: #F9FAF8;
 }
 
-.action .container .content p {
+.action .width .container .content p {
     font-size: 18px;
     font-weight: lighter;
     color: #E5E7EB;
     margin: 0;
 }
 
-.action .container button {
+.action .width .container button {
     background: #3882F6;
     color: #F9FAF8;
     border: 2px solid #F9FAF8;
@@ -267,7 +270,7 @@ body {
 
 /* Footer Structure */
 
-.footer {
+.footer .width {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -280,7 +283,7 @@ body {
     background: #1F2937;
 }
 
-.footer div {
+.footer .width  div {
     font-size: 18px;
     font-weight: lighter;
     color: #E5E7EB;
