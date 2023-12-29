@@ -95,7 +95,7 @@ body {
 }
 
 .header .content button {
-    padding: 5px 24px;
+    padding: 8px 35px;
     background: #3882F6;
     color: #F9FAF8;
     border-radius: 8px;
@@ -206,7 +206,7 @@ body {
 /* Action Section Structure */
 
 .action {
-    margin: 50px 0;
+    padding: 50px 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -223,11 +223,42 @@ body {
 .action .container .content {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .container button {
-    padding: 5px 24px;
+    padding: 8px 35px;
     margin-left: auto;
+}
+
+/* Action Section Styling */
+
+.action .container {
+    background: #3882F6;
+    border: 0;
+    border-radius: 8px;
+    padding: 50px 100px;
+}
+
+.action .container .content div {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.action .container .content p {
+    font-size: 18px;
+    font-weight: lighter;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.action .container button {
+    background: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
 }
 
 /* Footer Structure */
