@@ -107,9 +107,32 @@ body {
     align-self: flex-end;
 }
 
-/* Final Section Structure */
+/* Action Section Structure */
 
+.action {
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.action .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 35px;
+    width: 60%;
+}
+
+.action .container .content {
+    display: flex;
+    flex-direction: column;
+}
+
+.container button {
+    padding: 5px 24px;
+    margin-left: auto;
+}
 
 /* Footer Structure */
 
